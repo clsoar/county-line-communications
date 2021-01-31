@@ -1,0 +1,55 @@
+body {
+  background: url("../img/lined-background_vert.jpg") no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+body:after{
+      content:"";
+      position:fixed; /* stretch a fixed position to the whole screen */
+      top:0;
+      height:100vh; /* fix for mobile browser address bar appearing disappearing */
+      left:0;
+      right:0;
+      z-index:-1; /* needed to keep in the background */
+      background: url("../img/lined-background_vert.jpg") center center;
+      -webkit-background-size: cover;
+      -moz-background-size: cover;
+      -o-background-size: cover;
+      background-size: cover;
+}
+header.thanks {
+  display: block;
+  text-align: center;
+}
+.thanks-message {
+  padding: 2% 5%;
+  background-color: white;
+  border: .2em solid #6c7c79;
+  margin-left: auto;
+  margin-right: auto;
+  max-width: 800px;
+}
+.menu {
+  display: flex;
+  flex-wrap: nowrap;
+  text-align: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+}
+@media screen and (min-width: 700px) {
+  .thanks-message {
+    text-align: center;
+  }
+}
+@media screen and (min-width: 1000px) {
+  .logo {
+    width: 100%;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .menu {
+    margin-bottom: 20px;
+  }
+}
