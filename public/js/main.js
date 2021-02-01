@@ -42,8 +42,8 @@ const transferLocation = (marker) => {
   newLong.value = droppedLong;}
 
 //for map
-const yeksOne = "AIzaSyCnWKdGq2iKrYTa";
-const yeksTwo = "td3QqciKceSiyKpU294";
+const yeksOne = "AIzaSyC9JBqLm5EzKnF3Tu";
+const yeksTwo = "jSPEj0rAXadLKGgb4";
 const reCenterMap = () => {
   var geocoder1 = new google.maps.Geocoder();
   setCenter(geocoder1);
