@@ -24,6 +24,12 @@ if(formSubmitBtn) {
           })
           .catch(error => console.error('Error!', error.message));
       //clears form and goes to thank you page
+      emailjs.sendForm('default_service', 'template_46i647i', form)
+      .then(function() {
+        console.log('SUCCESS!');
+      }, function(error) {
+        console.log('FAILED...', error);
+      });
         form.reset();
         return false;
             }
