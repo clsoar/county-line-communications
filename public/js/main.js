@@ -36,6 +36,10 @@ if(formSubmitBtn) {
         })
     }
   }
+
+/*
+  **For map location finder**
+  **No longer active**
 //for dialog
 const closeBtn = document.querySelector('#close-button');
 const newLat = document.querySelector('#lat');
@@ -54,6 +58,7 @@ const reCenterMap = () => {
   var geocoder1 = new google.maps.Geocoder();
   setCenter(geocoder1);
 }
+
 //listen for open dialog button
 const makeMap = () => {
       var script = document.createElement('script');
@@ -110,3 +115,4 @@ function setCenter(geocoder) {
         }
     });
 }
+*/
