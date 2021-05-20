@@ -96,7 +96,8 @@ h1.hero {
 p.hero:nth-of-type(1) {
   background-color: #f4f4f4;
   margin: 10px 10% 30px 10%;
-  border: .1em solid #bdc3c5;
+  border: .3em solid #752025;
+  border-radius: 5px;
   cursor: pointer;
 }
 p.hero:nth-of-type(2) {
@@ -108,13 +109,37 @@ p.hero:nth-of-type(2) {
 }
 .construction-updates ul {
   list-style-type: none;
-  margin-left: auto;
-  margin-right: auto;
   padding-left: 0;
-  width: 100%;
+  background-color: #f5f5f5;
+  margin: 1% 5%;
+  border-radius: 3px;
+  border: .2em dashed #bdc3c5;
+}
+.construction-updates ul:before{
+    content:attr(aria-label);
+    font-size:120%;
+    font-weight:bold;
+    border-bottom: .1em solid #313131;
 }
 .hide-const-updates {
-  display: none;
+}
+.phaseI p {
+  border: .1em solid #d1d3d3;
+  background-color: #006d54;
+  color: #f5f5f5;
+  margin: 10px 10% 10px 10%;
+}
+.phaseII p {
+  border: .1em solid #d1d3d3;
+  background-color: #006d54;
+  color: #f5f5f5;
+  margin: 10px 10% 10px 10%;
+}
+.phaseIII p {
+  border: .1em solid #d1d3d3;
+  background-color: #006d54;
+  color: #f5f5f5;
+  margin: 10px 10% 10px 10%;
 }
 .features {
   list-style-type: none;
@@ -348,6 +373,9 @@ dialog p {
 }
 
 @media screen and (min-width: 700px) {
+  .construction-updates ul {
+    margin: 1% 15%;
+  }
   .form-input {
     display: inline-block;
     margin: 2px 5px;
