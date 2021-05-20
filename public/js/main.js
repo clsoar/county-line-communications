@@ -37,6 +37,14 @@ if(formSubmitBtn) {
     }
   }
 
+const clicker = document.querySelector("#clicker");
+const constructionUpdates = document.querySelector(".construction-updates");
+
+function handleClick(event){
+  constructionUpdates.classList.toggle("hide-const-updates")
+}
+clicker.addEventListener('click', handleClick);
+
 /*
   **For map location finder**
   **No longer active**
@@ -52,8 +60,8 @@ const transferLocation = (marker) => {
   newLong.value = droppedLong;}
 
 //for map
-const yeksOne = "AIzaSyC9JBqLm5EzKnF3Tu";
-const yeksTwo = "jSPEj0rAXadLKGgb4";
+const yeksOne = "partial key";
+const yeksTwo = "other part key";
 const reCenterMap = () => {
   var geocoder1 = new google.maps.Geocoder();
   setCenter(geocoder1);

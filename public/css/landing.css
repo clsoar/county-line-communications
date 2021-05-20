@@ -97,6 +97,7 @@ p.hero:nth-of-type(1) {
   background-color: #f4f4f4;
   margin: 10px 10% 30px 10%;
   border: .1em solid #bdc3c5;
+  cursor: pointer;
 }
 p.hero:nth-of-type(2) {
   color: #040404;
