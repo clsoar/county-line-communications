@@ -122,6 +122,7 @@ p.hero:nth-of-type(2) {
     border-bottom: .1em solid #313131;
 }
 .hide-const-updates {
+  display: none;
 }
 .phaseI p {
   border: .1em solid #d1d3d3;
