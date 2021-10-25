@@ -99,6 +99,8 @@ p.construction {
   border: .3em solid #752025;
   border-radius: 5px;
   cursor: pointer;
+  padding-left: 5px;
+  padding-right: 5px;
 }
 p.register {
   color: #040404;
@@ -431,6 +433,9 @@ dialog p {
   }
   .submit-btn {
     width: 100%;
+  }
+  p.hero:nth-of-type(1) {
+    max-width: 80%;
   }
 }
 @media screen and (min-width: 1000px) {
