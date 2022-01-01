@@ -3,7 +3,7 @@
 
 # TEAM
 
-    <name> -- <role> -- <twitter>
+    Cherie-Lee Mason -- Dev -- https://www.linkedin.com/in/cherieleemason/
 
 # THANKS
 
@@ -11,5 +11,5 @@
 
 # TECHNOLOGY COLOPHON
 
-    CSS3, HTML5
+    CSS3, HTML5, JS
     Apache Server Configs, jQuery, Modernizr, Normalize.css
