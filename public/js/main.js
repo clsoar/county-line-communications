@@ -45,9 +45,9 @@ function handleClick(event){
 }
 clicker.addEventListener('click', handleClick);
 
-/*
-  **For map location finder**
-  **No longer active**
+
+//  **For map location finder**
+
 //for dialog
 const closeBtn = document.querySelector('#close-button');
 const newLat = document.querySelector('#lat');
@@ -123,4 +123,3 @@ function setCenter(geocoder) {
         }
     });
 }
-*/
