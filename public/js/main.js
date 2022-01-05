@@ -60,8 +60,8 @@ const transferLocation = (marker) => {
   newLong.value = droppedLong;}
 
 //for map
-const yeksOne = "partial key";
-const yeksTwo = "other part key";
+const yeksOne = "AIzaSyD7ibu8agqR5Ob";
+const yeksTwo = "FKIDgQ-vKGuTRrclg_oI";
 const reCenterMap = () => {
   var geocoder1 = new google.maps.Geocoder();
   setCenter(geocoder1);
