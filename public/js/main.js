@@ -37,6 +37,7 @@ if(formSubmitBtn) {
     }
   }
 
+/* hide construction updates handler
 const clicker = document.querySelector("#clicker");
 const constructionUpdates = document.querySelector(".construction-updates");
 
@@ -44,6 +45,7 @@ function handleClick(event){
   constructionUpdates.classList.toggle("hide-const-updates")
 }
 clicker.addEventListener('click', handleClick);
+*/
 
 
 //  **For map location finder**
